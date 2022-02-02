@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91D25D0D27AAA50600073CC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D25D0C27AAA50600073CC2 /* AppDelegate.swift */; };
+		91D25D0F27AAA50600073CC2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D25D0E27AAA50600073CC2 /* SceneDelegate.swift */; };
+		91D25D1127AAA50600073CC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D25D1027AAA50600073CC2 /* ViewController.swift */; };
+		91D25D1427AAA50600073CC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D25D1227AAA50600073CC2 /* Main.storyboard */; };
+		91D25D1627AAA50A00073CC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D25D1527AAA50A00073CC2 /* Assets.xcassets */; };
+		91D25D1927AAA50A00073CC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91D25D1727AAA50A00073CC2 /* LaunchScreen.storyboard */; };
+		91D25D2227AAA5D300073CC2 /* PinLayout in Frameworks */ = {isa = PBXBuildFile; productRef = 91D25D2127AAA5D300073CC2 /* PinLayout */; };
+		91D25D2A27AAA77700073CC2 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D25D2927AAA77700073CC2 /* UIView+.swift */; };
+		91D25D3427AAAD7100073CC2 /* FlexLayout in Frameworks */ = {isa = PBXBuildFile; productRef = 91D25D3327AAAD7100073CC2 /* FlexLayout */; };
+		91D25D3627AAAD7100073CC2 /* FlexLayoutYoga in Frameworks */ = {isa = PBXBuildFile; productRef = 91D25D3527AAAD7100073CC2 /* FlexLayoutYoga */; };
+		91D25D3827AAAD7100073CC2 /* FlexLayoutYogaKit in Frameworks */ = {isa = PBXBuildFile; productRef = 91D25D3727AAAD7100073CC2 /* FlexLayoutYogaKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		91D25D0927AAA50600073CC2 /* FlexPinLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexPinLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D25D0C27AAA50600073CC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91D25D0E27AAA50600073CC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		91D25D1027AAA50600073CC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91D25D1327AAA50600073CC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91D25D1527AAA50A00073CC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91D25D1827AAA50A00073CC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91D25D1A27AAA50A00073CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91D25D2927AAA77700073CC2 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91D25D0627AAA50600073CC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D25D2227AAA5D300073CC2 /* PinLayout in Frameworks */,
+				91D25D3427AAAD7100073CC2 /* FlexLayout in Frameworks */,
+				91D25D3827AAAD7100073CC2 /* FlexLayoutYogaKit in Frameworks */,
+				91D25D3627AAAD7100073CC2 /* FlexLayoutYoga in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91D25D0027AAA50600073CC2 = {
+			isa = PBXGroup;
+			children = (
+				91D25D0B27AAA50600073CC2 /* FlexPinLayout */,
+				91D25D0A27AAA50600073CC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91D25D0A27AAA50600073CC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91D25D0927AAA50600073CC2 /* FlexPinLayout.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91D25D0B27AAA50600073CC2 /* FlexPinLayout */ = {
+			isa = PBXGroup;
+			children = (
+				91D25D0C27AAA50600073CC2 /* AppDelegate.swift */,
+				91D25D0E27AAA50600073CC2 /* SceneDelegate.swift */,
+				91D25D1027AAA50600073CC2 /* ViewController.swift */,
+				91D25D1227AAA50600073CC2 /* Main.storyboard */,
+				91D25D1527AAA50A00073CC2 /* Assets.xcassets */,
+				91D25D1727AAA50A00073CC2 /* LaunchScreen.storyboard */,
+				91D25D1A27AAA50A00073CC2 /* Info.plist */,
+				91D25D2927AAA77700073CC2 /* UIView+.swift */,
+			);
+			path = FlexPinLayout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91D25D0827AAA50600073CC2 /* FlexPinLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91D25D1D27AAA50A00073CC2 /* Build configuration list for PBXNativeTarget "FlexPinLayout" */;
+			buildPhases = (
+				91D25D0527AAA50600073CC2 /* Sources */,
+				91D25D0627AAA50600073CC2 /* Frameworks */,
+				91D25D0727AAA50600073CC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlexPinLayout;
+			packageProductDependencies = (
+				91D25D2127AAA5D300073CC2 /* PinLayout */,
+				91D25D3327AAAD7100073CC2 /* FlexLayout */,
+				91D25D3527AAAD7100073CC2 /* FlexLayoutYoga */,
+				91D25D3727AAAD7100073CC2 /* FlexLayoutYogaKit */,
+			);
+			productName = FlexPinLayout;
+			productReference = 91D25D0927AAA50600073CC2 /* FlexPinLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91D25D0127AAA50600073CC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					91D25D0827AAA50600073CC2 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 91D25D0427AAA50600073CC2 /* Build configuration list for PBXProject "FlexPinLayout" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91D25D0027AAA50600073CC2;
+			packageReferences = (
+				91D25D2027AAA5D300073CC2 /* XCRemoteSwiftPackageReference "PinLayout" */,
+				91D25D3227AAAD7100073CC2 /* XCRemoteSwiftPackageReference "FlexLayout" */,
+			);
+			productRefGroup = 91D25D0A27AAA50600073CC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91D25D0827AAA50600073CC2 /* FlexPinLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91D25D0727AAA50600073CC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D25D1927AAA50A00073CC2 /* LaunchScreen.storyboard in Resources */,
+				91D25D1627AAA50A00073CC2 /* Assets.xcassets in Resources */,
+				91D25D1427AAA50600073CC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91D25D0527AAA50600073CC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D25D2A27AAA77700073CC2 /* UIView+.swift in Sources */,
+				91D25D1127AAA50600073CC2 /* ViewController.swift in Sources */,
+				91D25D0D27AAA50600073CC2 /* AppDelegate.swift in Sources */,
+				91D25D0F27AAA50600073CC2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		91D25D1227AAA50600073CC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91D25D1327AAA50600073CC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91D25D1727AAA50A00073CC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91D25D1827AAA50A00073CC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91D25D1B27AAA50A00073CC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "FLEXLAYOUT_SWIFT_PACKAGE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91D25D1C27AAA50A00073CC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91D25D1E27AAA50A00073CC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B5VE639J3N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlexPinLayout/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cute.xloha.FlexPinLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91D25D1F27AAA50A00073CC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B5VE639J3N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlexPinLayout/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cute.xloha.FlexPinLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91D25D0427AAA50600073CC2 /* Build configuration list for PBXProject "FlexPinLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91D25D1B27AAA50A00073CC2 /* Debug */,
+				91D25D1C27AAA50A00073CC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91D25D1D27AAA50A00073CC2 /* Build configuration list for PBXNativeTarget "FlexPinLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91D25D1E27AAA50A00073CC2 /* Debug */,
+				91D25D1F27AAA50A00073CC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		91D25D2027AAA5D300073CC2 /* XCRemoteSwiftPackageReference "PinLayout" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/layoutBox/PinLayout";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		91D25D3227AAAD7100073CC2 /* XCRemoteSwiftPackageReference "FlexLayout" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/layoutBox/FlexLayout.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.3.18;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		91D25D2127AAA5D300073CC2 /* PinLayout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 91D25D2027AAA5D300073CC2 /* XCRemoteSwiftPackageReference "PinLayout" */;
+			productName = PinLayout;
+		};
+		91D25D3327AAAD7100073CC2 /* FlexLayout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 91D25D3227AAAD7100073CC2 /* XCRemoteSwiftPackageReference "FlexLayout" */;
+			productName = FlexLayout;
+		};
+		91D25D3527AAAD7100073CC2 /* FlexLayoutYoga */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 91D25D3227AAAD7100073CC2 /* XCRemoteSwiftPackageReference "FlexLayout" */;
+			productName = FlexLayoutYoga;
+		};
+		91D25D3727AAAD7100073CC2 /* FlexLayoutYogaKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 91D25D3227AAAD7100073CC2 /* XCRemoteSwiftPackageReference "FlexLayout" */;
+			productName = FlexLayoutYogaKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 91D25D0127AAA50600073CC2 /* Project object */;
+}
